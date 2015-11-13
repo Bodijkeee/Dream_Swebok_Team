@@ -26,9 +26,117 @@ header, nav, section, article, aside, div{
     letter-spacing: 1px;
 }
 
+.header_m3{
+    position: relative;
+    background: url(../img/m3.jpg);
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+    font-family: BebasRegular;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.header_m4{
+    position: relative;
+    background: url(../img/m4.jpg);
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+    font-family: BebasRegular;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.header_m5{
+    position: relative;
+    background: url(../img/m5.jpg);
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+    font-family: BebasRegular;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.header_m6{
+    position: relative;
+    background: url(../img/m6.jpg);
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+    font-family: BebasRegular;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.header a{
+    color: WHITE;
+	text-decoration:none;
+}
+
+.header_m3 a{
+    color: WHITE;
+	text-decoration:none;
+}
+
+.header_m4 a{
+    color: WHITE;
+	text-decoration:none;
+}
+
+.header_m5 a{
+    color: WHITE;
+	text-decoration:none;
+}
+
+.header_m6 a{
+    color: WHITE;
+	text-decoration:none;
+}
+
 .slogan{
     margin: 300px 100px;
     text-align: left;
+    font-size: 48px;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+
+.slogan_m3{
+    height: 500px;
+    margin: 100px 100px;
+    text-align: left;
+    font-size: 48px;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+
+.slogan_m4{
+    height: 500px;
+    margin: 100px 100px;
+    text-align: left;
+	color: GREY;
+    font-size: 48px;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+
+.slogan_m5{
+    height: 500px;
+    margin: 100px 100px;
+    text-align: left;
+	color: WHITE;
+    font-size: 48px;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+
+.slogan_m6{
+    height: 500px;
+    margin: 100px 100px;
+    text-align: left;
+	color: WHITE;
     font-size: 48px;
     font-weight: normal;
     letter-spacing: 5px;
@@ -58,6 +166,7 @@ header, nav, section, article, aside, div{
 }
 
 .main-menu ul li a:hover{
+	color: WHITE;
     border-bottom: 2px solid transparent;
     border-image: url(../img/bord.png) 2 stretch;
 }
